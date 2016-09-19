@@ -1,0 +1,2 @@
+http://sentinel-s2-l1c.s3.amazonaws.com/tiles/22/L/DK/2016/7/5/0/
+http://sentinel-s2-l1c.s3.amazonaws.com/tiles/22/L/DK/2016/7/25/0/
