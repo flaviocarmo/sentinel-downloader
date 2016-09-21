@@ -22,9 +22,9 @@ do
 	FILE4="$FILE-B04.jp2"
 	FILE8="$FILE-B08.jp2"
 	
-	wget $LINK2 -O $FILE2 --progress=bar
-	wget $LINK3 -O $FILE3 --progress=bar
-	wget $LINK4 -O $FILE4 --progress=bar
-	wget $LINK8 -O $FILE8 --progress=bar
+	wget --continue $LINK2 -O $FILE2 --progress=bar
+	wget --continue $LINK3 -O $FILE3 --progress=bar
+	wget --continue $LINK4 -O $FILE4 --progress=bar
+	wget --continue $LINK8 -O $FILE8 --progress=bar
 done
 exit 0
